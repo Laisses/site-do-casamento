@@ -8,13 +8,22 @@
 }
 
 @font-face {
+  font-family: "Cinzel";
+  src:  url("../assets/fontes/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Vesper Libre";
+  src: url("../assets/fontes/VesperLibre-Regular.ttf");
+}
+
+@font-face {
   font-family: "Wildy-Sans";
   src: url("../assets/fontes/Wildy-Sans.ttf");
 }
 
-/*font-family: "Autopilot";*/
 body {
-  font-family: font-family: 'Vesper Libre', serif;
+  font-family: "Vesper Libre", serif;
 }
 
 header {

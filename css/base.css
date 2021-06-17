@@ -31,12 +31,6 @@ body {
   font-family: "Vesper Libre", serif;
 }
 
-header {
-  text-align: right;
-
-  padding-bottom: 30px;
-}
-
 .esconder {
   display: none;
 }

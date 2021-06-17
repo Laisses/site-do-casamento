@@ -1,12 +1,63 @@
-header {
+.header {
 	display: flex;
 	justify-content: space-between;
 
 	width: 100vw;
 	height: 100vh;
+
+	background-color: var(--bg-header);
 }
 
+.header a:link, .header a:visited, .heade a:active {
+	text-decoration: none;
+}
+
+.header__texto {
+	width: 50vw;
+	margin-top: .6rem;
+
+	color: white;
+}
+
+.header__texto a, .header__texto--titulo {
+	font-family: var(--fonte-nome);
+}
+
+.header__texto a {
+	font-size: .6rem;
+
+	text-align: left;
+
+	padding-left: .5rem;
+
+	color: white;
+}
+
+.header__texto--titulo {
+	font-size: .9rem;
+
+	letter-spacing: 2px;
+	line-height: 1.5;
+
+	text-transform: uppercase;
+	text-align: right;
+
+	padding-top: 2.4rem;
+	padding-bottom: 0.8rem;
+	padding-right: 1.5rem;
+}
+
+.header__texto--data {
+	font-family: var(--fonte-data);
+	font-size: 0.4rem;
+
+	text-transform: uppercase;
+	text-align: right;
+
+	padding-right: 1.3rem;
+}
 
 .header__foto {
 	background-image: url("../assets/img/laisse-e-andre.png");
+	width: 50vw;
 }

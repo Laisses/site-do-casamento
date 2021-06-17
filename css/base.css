@@ -9,11 +9,6 @@
 }
 
 @font-face {
-  font-family: "Autopilot";
-  src: url("../assets/fontes/Autopilot.ttf");
-}
-
-@font-face {
   font-family: "Open Sans;";
   src: url("../assets/fontes/OpenSans-Regular.ttf");
 }
@@ -26,16 +21,6 @@
 @font-face {
   font-family: "Cinzel";
   src:  url("../assets/fontes/Cinzel-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "Vesper Libre";
-  src: url("../assets/fontes/VesperLibre-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Wildy-Sans";
-  src: url("../assets/fontes/Wildy-Sans.ttf");
 }
 
 body {

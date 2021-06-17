@@ -1,7 +1,7 @@
 :root {
   box-sizing: border-box;
 
-  --bg-header: #657A8C;
+  --bg-header: rgba(56, 72, 93, 0.75);
 
   --fonte-nome: "Alice", serif;
   --fonte-data: "Open Sans", sans-serif;

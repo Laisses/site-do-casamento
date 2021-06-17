@@ -1,10 +1,21 @@
-* {
+:root {
   box-sizing: border-box;
+
+  --bg-header: #657A8C;
+
+  --fonte-nome: "Alice", serif;
+  --fonte-data: "Open Sans", sans-serif;
+  --fonte-nav: "Open Sans", sans-serif;
 }
 
 @font-face {
   font-family: "Autopilot";
   src: url("../assets/fontes/Autopilot.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans;";
+  src: url("../assets/fontes/OpenSans-Regular.ttf");
 }
 
 @font-face {

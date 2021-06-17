@@ -1,0 +1,12 @@
+header {
+	display: flex;
+	justify-content: space-between;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.header__foto {
+	background-image: url("../assets/img/laisse-e-andre.png");
+}

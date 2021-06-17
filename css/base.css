@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: "Alice";
+  src:  url("../assets/fontes/Alice-Regular.ttf");
+}
+
+@font-face {
   font-family: "Cinzel";
   src:  url("../assets/fontes/Cinzel-VariableFont_wght.ttf");
 }

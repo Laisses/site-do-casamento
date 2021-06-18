@@ -54,10 +54,16 @@
 
 	border-radius: 8px;
 
-	background-color: #3a4666;
+	background-color: var(--bg-hamburguer);
 }
 
 .menu__item--hamburguer {
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.menu__item--hamburguer a:link,
+.menu__item--hamburguer a:visited,
+.menu__item--hamburguer a:active {
+	color: var(--texto-hamburguer);
 }

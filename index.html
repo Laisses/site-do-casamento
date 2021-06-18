@@ -10,13 +10,123 @@
 		<link rel="stylesheet" href="css/header.css">
 
 		<title>L | A</title>
+
+		<style type="text/css">
+			header {
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 20px;
+				font-family: var(--fonte-nome);
+			}
+
+			nav {
+				display: flex;
+				justify-content: space-between;
+				padding-left: 40px;
+				color: white;
+			}
+
+			ul {
+				display: flex;
+			}
+
+			li {
+				margin-right: 20px;
+			}
+
+			#bloco {
+				display: flex;
+			}
+
+			#cor {
+				width: 50%;
+				background-color: brown;
+				text-align: right;
+				color: white;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+
+				padding-right: 40px;
+			}
+
+			#foto {
+				width: 50%;
+			}
+
+			a:link, a:visited, a:active {
+				text-decoration: none;
+				color:  white;
+			}
+
+			h1 {
+				font-family: var(--fonte-nome);
+				text-transform: uppercase;
+				line-height: 1.5;
+				letter-spacing: 3px;
+				margin-bottom: 20px;
+				font-size: 3rem;
+			}
+
+			p {
+				font-family: var(--fonte-data);
+				text-transform: uppercase;
+				font-size: 0.7rem;
+			}
+
+			/*
+			.header__texto--nomes {
+	font-size: 2rem;
+
+	letter-spacing: 3px;
+	line-height: 1.5;
+
+	text-transform: uppercase;
+	text-align: right;
+
+	padding-top: 2%;
+	padding-right: 4vw;
+	padding-bottom: 3vw;
+}
+
+.header__texto--data {
+	font-family: var(--fonte-data);
+	font-size: 1.6vw;
+
+	text-transform: uppercase;
+	text-align: right;
+
+	padding-right: 3vw;
+}
+			*/
+		</style>
 	</head>
 
 	<body>
+		<header>
+			<nav>
+				<a href="#">L | A</a>
+				<ul>
+					<li>Local</li>
+					<li>Presentes</li>
+					<li>Confirmar Presença</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="bloco">
+			<div id="cor">
+				<h1>Laísse &amp;<br />André</h1>
+				<p>17 • jul • 2022</p>
+			</div>
+			<img id="foto" src="assets/img/laisse-e-andre.png" />
+		</div>
+		<!--
 		<header class="header">
 			<div class="header__texto">
-				<a href="index.html">L &amp; A</a>
-				<h1 class="header__texto--titulo">
+				<a href="index.html" class="header__texto--sigla">L &amp; A</a>
+				<h1 class="header__texto--nomes">
 					Laísse &amp;
 					<br>
 					André
@@ -32,7 +142,12 @@
 					<li><a href="#">Confirmar Presença</a></li>
 				</ul>
 			</div>
-		</header>		
+		</header>
+		-->
+		<main>
+			hjshsjhsakh
+		</main>
+	
 
 		<script src="js/js.js"></script>
 	</body>

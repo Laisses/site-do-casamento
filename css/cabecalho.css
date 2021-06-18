@@ -12,7 +12,7 @@
 .cabecalho__home {
 	font-family: var(--fonte-nome);	
 
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 
 	margin-left: 0.5rem;
 }
@@ -40,7 +40,7 @@
 	justify-content: center;
 	
 	position: absolute;
-	top: 3rem;
+	top: 3.5rem;
 	right: 15px;
 	left: 15px;
 	z-index: 10;

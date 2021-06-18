@@ -1,13 +1,20 @@
 .cabecalho {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-end;
 
 	position: absolute;
 	top: 20px;
 	right: 1px;
 	left: 1px;
+}
 
+.cabecalho__home {
 	font-family: var(--fonte-nome);	
+
+	font-size: 2.5rem;
+
+	margin-left: 0.5rem;
 }
 
 .cabecalho__navegacao {
@@ -33,7 +40,7 @@
 	justify-content: center;
 	
 	position: absolute;
-	top: 2.7rem;
+	top: 3rem;
 	right: 15px;
 	left: 15px;
 	z-index: 10;

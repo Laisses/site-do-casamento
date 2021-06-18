@@ -1,69 +1,44 @@
-/*
-.header {
+.cabecalho {
 	display: flex;
 	justify-content: space-between;
 
-	width: 100vw;
-	height: 350px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	left: 20px;
 
-	background-color: var(--bg-header);
+	font-family: var(--fonte-nome);	
+
+	padding-right: 1.5rem;
+	padding-left: .5rem;
 }
 
-.header a:link, .header a:visited, .header a:active {
-	text-decoration: none;
+.cabecalho__navegacao {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.header__texto a, .header__texto--titulo {
-	font-family: var(--fonte-nome);
+.menu__botao {
+	background-color: transparent;
+
+	border: 0;
+	padding: 0;
 }
 
-.header__texto {
-	width: 50vw;
-	margin-top: clamp(10px, 15px, 20px);
+.cabecalho__menu--hamburguer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	position: absolute;
+	top: 2.2rem;
+	right: 1rem;
+	left: 1rem;
+	z-index: 10;
 
-	color: white;
+	padding: 20px 0 20px 40px;
+
+	border-radius: 8px;
+
+	background-color: #3a4666;
 }
-
-.header__texto--sigla {
-	font-size: 2.5vw;
-
-	text-align: left;
-
-	color: white;
-
-	padding-left: 2vw;
-}
-
-.header__texto--nomes {
-	font-size: 2rem;
-
-	letter-spacing: 3px;
-	line-height: 1.5;
-
-	text-transform: uppercase;
-	text-align: right;
-
-	padding-top: 2%;
-	padding-right: 4vw;
-	padding-bottom: 3vw;
-}
-
-.header__texto--data {
-	font-family: var(--fonte-data);
-	font-size: 1.6vw;
-
-	text-transform: uppercase;
-	text-align: right;
-
-	padding-right: 3vw;
-}
-
-/*
-.header__foto {
-	background-image: url("../assets/img/laisse-e-andre.png");
-	background-size: cover;
-	background-position: center top;
-
-	width: 50vw;
-}
-*/

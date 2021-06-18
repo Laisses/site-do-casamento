@@ -12,29 +12,7 @@
 		<title>L | A</title>
 
 		<style type="text/css">
-			header {
-				position: absolute;
-				top: 0;
-				right: 0;
-				left: 20px;
-				font-family: var(--fonte-nome);
-			}
-
-			nav {
-				display: flex;
-				justify-content: space-between;
-				padding-left: 40px;
-				color: white;
-			}
-
-			ul {
-				display: flex;
-			}
-
-			li {
-				margin-right: 20px;
-			}
-
+			
 			#bloco {
 				display: flex;
 			}
@@ -43,7 +21,6 @@
 				width: 50%;
 				background-color: brown;
 				text-align: right;
-				color: white;
 
 				display: flex;
 				flex-direction: column;
@@ -58,7 +35,7 @@
 
 			a:link, a:visited, a:active {
 				text-decoration: none;
-				color:  white;
+				color: white;
 			}
 
 			h1 {
@@ -105,16 +82,39 @@
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<a href="#">L | A</a>
-				<ul>
+		<header class="cabecalho">
+			<a href="#">L | A</a>	
+
+			<nav class="cabecalho__navegacao">				
+				<ul class="cabecalho__menu--desktop esconder">
 					<li>Local</li>
 					<li>Presentes</li>
 					<li>Confirmar Presença</li>
 				</ul>
+
+				<button class="menu__botao">
+					<img src="assets/img/icone-menu-hamburguer.svg" alt="Ícone do menu" class="botao__icone--hamburguer">
+					<img src="assets/icone-fechar.svg" alt="Ícone do botão de fechar" class="botao__icone--fechar esconder">
+				</button>
+
+				<ul class="cabecalho__menu--hamburguer">
+					<li class="menu__item"><a href="#">Local</a></li>
+					<li class="menu__item"><a href="#">Presentes</a></li>
+					<li class="menu__item"><a href="#">Confirmar Presença</a></li>
+				</ul>
 			</nav>
+
+			
+
+
+
+
 		</header>
+
+
+
+
+		<!--
 		<div id="bloco">
 			<div id="cor">
 				<h1>Laísse &amp;<br />André</h1>
@@ -122,6 +122,7 @@
 			</div>
 			<img id="foto" src="assets/img/laisse-e-andre.png" />
 		</div>
+	-->
 		<!--
 		<header class="header">
 			<div class="header__texto">
@@ -144,9 +145,6 @@
 			</div>
 		</header>
 		-->
-		<main>
-			hjshsjhsakh
-		</main>
 	
 
 		<script src="js/js.js"></script>

@@ -4,8 +4,8 @@
 
 	position: absolute;
 	top: 20px;
-	right: 20px;
-	left: 20px;
+	right: 1px;
+	left: 1px;
 
 	font-family: var(--fonte-nome);	
 }
@@ -18,8 +18,13 @@
 .menu__botao {
 	background-color: transparent;
 
+	margin-right: 0.5rem;
 	border: 0;
-	padding: 0;
+}
+
+.botao__icone--hamburguer, .botao__icone--fecha {
+	height: 2rem;
+	width: 2rem;
 }
 
 .cabecalho__menu--hamburguer {
@@ -28,17 +33,24 @@
 	justify-content: center;
 	
 	position: absolute;
-	top: 2.2rem;
-	right: 1rem;
-	left: 1rem;
+	top: 2.7rem;
+	right: 15px;
+	left: 15px;
 	z-index: 10;
 
 	font-family: var(--fonte-nav);
 	font-size: 1.4rem;
+
+	text-align: center;
 
 	padding: 20px 40px;
 
 	border-radius: 8px;
 
 	background-color: #3a4666;
+}
+
+.menu__item--hamburguer {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }

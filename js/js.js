@@ -19,7 +19,7 @@ let viewport = window.matchMedia("(min-width: 1024px)");
 
 function lidaComMenuHamburguerQuandoATelaTaGrandeMomoMeAjudaNaoEntendiDireitoNemSeiNomearFuncoes() {
 	if (viewport.matches) {
-	document.querySelector(".cabecalho__menu--hamburguer").style.display = "none";
+		document.querySelector(".cabecalho__menu--hamburguer").style.display = "none";
 	}	
 }
 

@@ -10,21 +10,16 @@ function trocaBotoesDoMenu() {
 	}
 }
 
-//Tem que deixar a variável fora da função porque ele que informa qual o media query??? 
-//You can create a MediaQueryList by calling matchMedia() on the window object
-//The Window interface's matchMedia() method returns a new MediaQueryList object that can then be used to determine if the document matches the media query string, as well as to monitor the document to detect when it matches (or stops matching) that media query.
+const mql = window.matchMedia("(min-width: 1024px)");
 
-let viewport = window.matchMedia("(min-width: 1024px)");
-
-
-function lidaComMenuHamburguerQuandoATelaTaGrandeMomoMeAjudaNaoEntendiDireitoNemSeiNomearFuncoes() {
-	if (viewport.matches) {
+function lidaComAtualizacaoDeMediaQuery() {
+	if (mql.matches) {
+		document.querySelector(".botao__icone--hamburguer").classList.remove("esconder");
+		document.querySelector(".botao__icone--fecha").classList.add("esconder");
 		document.querySelector(".cabecalho__menu--hamburguer").style.display = "none";
 	}	
 }
 
-viewport.onchange = lidaComMenuHamburguerQuandoATelaTaGrandeMomoMeAjudaNaoEntendiDireitoNemSeiNomearFuncoes;
-
-
+mql.onchange = lidaComAtualizacaoDeMediaQuery;
 document.querySelector(".botao__icone--hamburguer").onclick = trocaBotoesDoMenu;
 document.querySelector(".botao__icone--fecha").onclick = trocaBotoesDoMenu;

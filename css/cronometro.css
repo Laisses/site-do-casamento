@@ -1,17 +1,52 @@
 .cronometro {
 	background-color: var(--branco);
 
-	padding-top: 2.5rem;
+	text-align: center;
+
+	padding-top: 1rem;
 	padding-bottom: 2.5rem;
 }
 
 .cronometro__titulo {
-	font-size: 1.4rem;
-
-	text-align: center;
+	font-size: 1.8rem;	
 
 	padding-right: 10px;
 	padding-left: 10px;
 }
 
-.
+.cronometro__subtitulo {
+	font-size: 1.2rem;
+
+	padding: 20px;
+
+	margin-bottom: 10px;
+}
+
+.cronometro__tempo {
+	background-color: var(--rosa);
+
+	font-size: 3rem;
+
+	color: var(--branco);
+
+	padding: 10px;
+
+	border-radius: 5px;
+}
+
+.cronometro__medida {
+	font-size: 1.4rem;
+
+	text-transform: uppercase;
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.cronometro__mensagem {
+	display: block;
+
+	font-size: 1.5rem;
+
+	margin-top: 20px;
+}

@@ -22,12 +22,10 @@
 
 	color: var(--branco);
 
-	line-height: 1;	
+	line-height: 1;
 
 	padding: 20px;
 }
-
-
 
 .noivos__data, .noivos__texto {
 	font-family: var(--fonte-data);
@@ -48,5 +46,4 @@
 
 .noivos__data {
 	font-size: 1rem;
-
 }

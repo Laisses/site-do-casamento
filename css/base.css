@@ -8,6 +8,7 @@
 	--fonte-nome: "Alice", serif;
 	--fonte-data: "Open Sans", sans-serif;
 	--fonte-nav: "Open Sans", sans-serif;
+	--fonte-base: "Open Sans", sans-serif;
 
 	--preto: #1a1a1a;
 	--branco: #f0f0f0;
@@ -30,7 +31,7 @@
 }
 
 body {
-	font-family: "Vesper Libre", serif;
+	font-family: var(--fonte-base);
 	background-color: var(--azul);
 }
 

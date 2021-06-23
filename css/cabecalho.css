@@ -80,7 +80,7 @@
 	.cabecalho__menu--desktop {
 		display: flex;
 
-		padding-right: 10vw;
+		padding-right: 5vw;
 	}
 
 	.menu__item--desktop:not(:last-child):after {

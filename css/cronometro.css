@@ -1,3 +1,12 @@
-.contagem__regressiva {
+.cronometro {
 	background-color: var(--branco);
+
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.cronometro__titulo {
+	font-size: .8rem;
+
+	text-align: center;
 }

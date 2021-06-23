@@ -5,6 +5,9 @@
 	margin-top: 4rem;
 
 	background-color: var(--bg-header);
+
+	padding-top: 2.5rem;
+	padding-bottom: 2rem;
 }
 
 .noivos__foto--mobile {
@@ -28,7 +31,7 @@
 
 	line-height: 1;
 
-	padding: 20px;
+	padding: 22px;
 }
 
 .noivos__data, .noivos__texto {
@@ -39,7 +42,7 @@
 
 	color: var(--branco);
 
-	padding: 10px;
+	padding: 12px;
 }
 
 .noivos__texto {
@@ -62,6 +65,7 @@
 		width: 100%;
 
 		margin-top: 0;
+		padding: 0;
 	}
 
 	.noivos__foto--mobile {

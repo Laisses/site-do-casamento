@@ -54,5 +54,22 @@
 }
 
 @media screen and (min-width: 1024px) {
-	
+	.noivos {
+		display: flex;
+		flex-direction: row-reverse;
+
+		height:800px;
+
+		margin-top: 0;
+	}
+
+	.noivos__foto--mobile {
+		display: none;
+	}
+
+	.noivos__foto--desktop {
+		display: flex;
+
+		width: 600px;
+	}
 }

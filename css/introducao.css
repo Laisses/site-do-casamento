@@ -58,7 +58,8 @@
 		flex-direction: row-reverse;
 		align-items: flex-start;
 
-		height:800px;
+		height:100%;
+		width: 100%;
 
 		margin-top: 0;
 	}
@@ -73,8 +74,8 @@
 		padding: 0;
 		margin-right: 0;
 
-		width: 700px;
-		height: 800px;
+		width: 40%;
+		height: 100%;
 	}
 
 	.noivos__intro {
@@ -82,7 +83,7 @@
 		flex-direction: column;
 		align-items: flex-end;
 
-		width: 100%;
+		width: 60%;
 		height: 100%;
 
 		margin-top: 16vw;

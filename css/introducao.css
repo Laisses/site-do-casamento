@@ -71,6 +71,39 @@
 		padding: 0;
 		margin-right: 0;
 
-		width: 600px;
+		width: 700px;
+	}
+
+	.noivos__intro {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+
+		height: 100%;
+		width: 100%;
+
+		margin-top: 16vw;
+	}
+
+	.noivos__nomes {
+		font-size: 7vw;
+
+		margin-right: 10vw;
+	}
+
+	.noivos__texto {
+		font-size: 2.2vw;
+
+		padding-top: 3vw;
+	}
+
+	.noivos__data {
+		font-size: 2vw;
+
+		padding-top: 4vw;
+	}
+
+	.noivos__data, .noivos__texto {
+		margin-right: 3vw;
 	}
 }

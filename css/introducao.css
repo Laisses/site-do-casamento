@@ -5,14 +5,11 @@
 	margin-top: 4rem;
 }
 
-.noivos__foto {
+.noivos__foto--mobile {
+	width: 80vw;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
-}
-
-.noivos__foto--mobile {	
-	width: 80vw;	
 }
 
 .noivos__foto--desktop {
@@ -57,6 +54,7 @@
 	.noivos {
 		display: flex;
 		flex-direction: row-reverse;
+		align-items: flex-start;
 
 		height:800px;
 
@@ -69,6 +67,9 @@
 
 	.noivos__foto--desktop {
 		display: flex;
+
+		padding: 0;
+		margin-right: 0;
 
 		width: 600px;
 	}

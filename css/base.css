@@ -1,7 +1,6 @@
 :root {
 	box-sizing: border-box;
 
-	--bg-header: rgba(0, 49, 82, 1);
 	--bg-hamburguer: #00223B;
 
 	--texto-hamburguer: #FCF3F8;
@@ -12,6 +11,7 @@
 
 	--preto: #1a1a1a;
 	--branco: #f0f0f0;
+	--azul: rgba(0, 49, 82, 1);
 }
 
 @font-face {
@@ -31,6 +31,7 @@
 
 body {
 	font-family: "Vesper Libre", serif;
+	background-color: var(--azul);
 }
 
 a:link, a:visited, a:active {

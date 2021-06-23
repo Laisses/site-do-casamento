@@ -31,7 +31,6 @@
 
 body {
 	font-family: "Vesper Libre", serif;
-	background-color: var(--bg-header);
 }
 
 a:link, a:visited, a:active {

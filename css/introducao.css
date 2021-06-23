@@ -90,24 +90,22 @@
 	}
 
 	.noivos__nomes {
-		font-size: 7vw;
+		font-size: 5rem;
+
+		text-transform: uppercase;
+		text-align: right;
+
+		letter-spacing: 10px;
+
+		line-height: 7rem;
 
 		margin-right: 20vw;
 	}
-
-	.noivos__texto {
-		font-size: 2.2vw;
+	
+	.noivos__data, .noivos__texto {
+		font-size: 1.8vw;
 
 		padding-top: 3vw;
-	}
-
-	.noivos__data {
-		font-size: 2vw;
-
-		padding-top: 4vw;
-	}
-
-	.noivos__data, .noivos__texto {
 		margin-right: 5vw;
 	}
 }

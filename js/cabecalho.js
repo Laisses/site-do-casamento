@@ -20,6 +20,8 @@ function lidaComAtualizacaoDeMediaQuery() {
 	}	
 }
 
-mql.onchange = lidaComAtualizacaoDeMediaQuery;
-document.querySelector(".botao__icone--hamburguer").onclick = trocaBotoesDoMenu;
-document.querySelector(".botao__icone--fecha").onclick = trocaBotoesDoMenu;
+window.addEventListener("DOMContentLoaded", function() {
+	mql.onchange = lidaComAtualizacaoDeMediaQuery;
+	document.querySelector(".botao__icone--hamburguer").onclick = trocaBotoesDoMenu;
+	document.querySelector(".botao__icone--fecha").onclick = trocaBotoesDoMenu;
+});

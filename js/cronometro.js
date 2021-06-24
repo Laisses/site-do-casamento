@@ -32,4 +32,6 @@ function escreveTempo() {
 	document.querySelector(".cronometro__tempo").textContent = tempo;
 }
 
-escreveTempo();
+window.addEventListener("DOMContentLoaded", function() {
+	escreveTempo();
+});

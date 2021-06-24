@@ -50,3 +50,9 @@
 
 	margin-top: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+	.cronometro__titulo {
+		padding: 20px;
+	}
+}

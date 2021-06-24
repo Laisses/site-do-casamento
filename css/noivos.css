@@ -1,0 +1,116 @@
+.noivos {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 4rem;
+
+	background-color: var(--bg-header);
+
+	padding-top: 2.5rem;
+	padding-bottom: 2rem;
+}
+
+.noivos__foto--mobile {
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.noivos__foto--desktop {
+	display: none;
+}
+
+.noivos__nomes {
+	font-family: var(--fonte-nome);
+	font-size: 2rem;
+
+	text-align: center;
+
+	color: var(--branco);
+
+	line-height: 1;
+
+	padding: 22px;
+}
+
+.noivos__data, .noivos__texto {
+	font-family: var(--fonte-data);
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: var(--branco);
+
+	padding: 12px;
+}
+
+.noivos__texto {
+	font-size: 1.1rem;
+
+	letter-spacing: 5px;
+}
+
+.noivos__data {
+	font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.noivos {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: flex-start;
+
+		height:100%;
+		width: 100%;
+
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.noivos__foto--mobile {
+		display: none;
+	}
+
+	.noivos__foto--desktop {
+		display: flex;
+
+		padding: 0;
+		margin-right: 0;
+
+		width: 40%;
+		height: 100%;
+	}
+
+	.noivos__intro {
+		display: flex;
+		flex-direction: column;
+
+		width: 60%;
+		height: 100%;
+
+		margin-top: 10vw;
+	}
+
+	.noivos__nomes {
+		font-size: 5rem;
+
+		text-transform: uppercase;
+		text-align: right;
+
+		letter-spacing: 10px;
+
+		line-height: 7rem;
+
+		margin-right: 20vw;
+	}
+
+	.noivos__data, .noivos__texto {
+		font-size: 1.8vw;
+
+		text-align: right;
+
+		padding-top: 3vw;
+		margin-right: 5vw;
+	}
+}

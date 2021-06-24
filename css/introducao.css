@@ -6,7 +6,7 @@
 
 .introducao__titulo {
 	font-family: var(--fonte-nome);
-	font-size: 1.5rem;
+	font-size: 2rem;
 
 	text-align: center;
 
@@ -33,4 +33,14 @@
 	margin: 20px auto;
 }
 
-/*@media screen and (min-width: 1024px)*/
+@media screen and (min-width: 1024px) {
+	.introducao__titulo {
+		font-size: 1.5rem;
+	}
+
+	.introducao__texto {
+		font-size: 1rem;
+
+		text-align: center;
+	}
+}

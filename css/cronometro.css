@@ -52,12 +52,24 @@
 }
 
 @media screen and (min-width: 1024px) {
+	.cronometro {
+		padding-bottom: 5rem;
+	}
+
 	.cronometro__titulo {
-		padding: 20px;
-		font-size: 1.4rem;
+		padding: 40px;
+		font-size: 1.1rem;
+	}
+
+	.cronometro__mensagem {
+		font-size: 1.2rem;
+	}
+
+	.cronometro__tempo {
+		font-size: 2rem;
 	}
 
 	.cronometro__medida {
-		font-size: 1.2rem;
-	}
+		font-size: 1rem;
+	}	
 }

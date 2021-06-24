@@ -6,7 +6,7 @@
 
 .introducao__titulo {
 	font-family: var(--fonte-nome);
-	font-size: 2rem;
+	font-size: 1.5rem;
 
 	text-align: center;
 
@@ -27,11 +27,10 @@
 }
 
 .introducao__linha {
-	background-image: url(../assets/img/quebra-linha.svg);
-	background-size: contain;
-
 	width: 70vw;
 	height: 3rem;
 
 	margin: 20px auto;
 }
+
+/*@media screen and (min-width: 1024px)*/

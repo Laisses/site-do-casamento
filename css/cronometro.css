@@ -54,5 +54,10 @@
 @media screen and (min-width: 1024px) {
 	.cronometro__titulo {
 		padding: 20px;
+		font-size: 1.4rem;
+	}
+
+	.cronometro__medida {
+		font-size: 1.2rem;
 	}
 }

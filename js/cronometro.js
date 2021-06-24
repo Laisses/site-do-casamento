@@ -7,9 +7,7 @@ function calculaTempo () {
 	return Math.floor(cronometro / (1000 * 60 * 60 *24));
 }
 
-function determinaTextos () {
-	const numeroDeDias = calculaTempo();
-
+function determinaTextos (numeroDeDias) {
 	if (numeroDeDias > 1) {
 		return {
 			subtitulo: "Faltam",
@@ -24,13 +22,14 @@ function determinaTextos () {
 }
 
 function escreveTempo() {
-	const textos = determinaTextos();
+	const tempo = calculaTempo();
+	const textos = determinaTextos(tempo);
 
 	document.querySelector(".cronometro__subtitulo").textContent = textos.subtitulo;
 
 	document.querySelector(".cronometro__medida").textContent = textos.medidaDeTempo;
 
-	document.querySelector(".cronometro__tempo").textContent = calculaTempo();	
+	document.querySelector(".cronometro__tempo").textContent = tempo;
 }
 
 escreveTempo();

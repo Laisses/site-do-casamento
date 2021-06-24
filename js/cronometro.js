@@ -1,14 +1,14 @@
 function calculaTempo () {
-	let dataDoCasamento = new Date("Jul 17, 2022").getTime();
-	let hoje = new Date().getTime();
+	const dataDoCasamento = new Date("Jul 17, 2022").getTime();
+	const hoje = new Date().getTime();
 
-	let cronometro = dataDoCasamento - hoje;
+	const cronometro = dataDoCasamento - hoje;
 
 	return Math.floor(cronometro / (1000 * 60 * 60 *24));
 }
 
 function determinaTextos () {
-	let numeroDeDias = calculaTempo();
+	const numeroDeDias = calculaTempo();
 
 	if (numeroDeDias > 1) {
 		return {

@@ -24,9 +24,11 @@ function determinaTextos () {
 }
 
 function escreveTempo() {
-	document.querySelector(".cronometro__subtitulo").textContent = determinaTextos().subtitulo;
+	const textos = determinaTextos();
 
-	document.querySelector(".cronometro__medida").textContent = determinaTextos().medidaDeTempo;
+	document.querySelector(".cronometro__subtitulo").textContent = textos.subtitulo;
+
+	document.querySelector(".cronometro__medida").textContent = textos.medidaDeTempo;
 
 	document.querySelector(".cronometro__tempo").textContent = calculaTempo();	
 }

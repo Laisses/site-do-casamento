@@ -1,5 +1,5 @@
 function calculaTempo () {
-	const dataDoCasamento = new Date("Jul 17, 2022").getTime();
+	const dataDoCasamento = new Date("2022-07-17").getTime();
 	const hoje = new Date().getTime();
 
 	const cronometro = dataDoCasamento - hoje;

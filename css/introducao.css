@@ -1,0 +1,27 @@
+.introducao {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--branco);
+}
+
+.introducao__titulo {
+	font-family: var(--fonte-nome);
+	font-size: 2rem;
+
+	text-align: center;
+
+	padding-bottom: 20px;
+}
+
+.introducao__texto {
+	font-size: 1.3rem;
+
+	padding: 10px 20px;
+}
+
+.beijos {
+	display: flex;
+	justify-content: center;
+
+	text-align: center;
+}

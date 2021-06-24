@@ -19,9 +19,13 @@
 	padding: 10px 20px;
 }
 
-.beijos {
+.introducao__beijos {
 	display: flex;
 	justify-content: center;
 
 	text-align: center;
+}
+
+.introducao__linha {
+
 }

@@ -1,0 +1,41 @@
+.local {
+	display: flex;
+	flex-direction: column;
+
+	background-color: var(--branco);
+}
+
+.local__titulo {
+	font-family: var(--fonte-nome);
+	font-size: 1.8rem;
+
+	text-align: center;
+
+	padding: 20px;
+}
+
+.local__texto {
+	font-size: 1.3rem;
+
+	text-align: center;
+
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.local__texto span{
+	font-weight: bold;
+}
+
+.local__subtitulo {
+	font-family: var(--fonte-nome);
+	font-size: 1.6rem;
+
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+	.local__titulo {
+		font-size: 1.5rem;
+	}
+}

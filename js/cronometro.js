@@ -10,26 +10,26 @@ function calculaTempo () {
 function determinaTextos (numeroDeDias) {
 	if (numeroDeDias > 1) {
 		return {
-			titulo1: "Faltam",
-			titulo2: "Dias",
+			subtitulo: "Faltam",
+			mensagem: "Dias",
 			mostraTempo: true
 		};
 	} else if (numeroDeDias === 1) {
 		return {
-			titulo1: "Falta",
-			titulo2: "Dia",
+			subtitulo: "Falta",
+			mensagem: "Dia",
 			mostraTempo: true
 		};
 	} else if (numeroDeDias === 0) {
 		return {
-			titulo1: "É hoje!",
-			titulo2: "Fique atento no relógio para chegar na hora :)",
+			subtitulo: "É hoje!",
+			mensagem: "Fique atento no relógio para chegar na hora :)",
 			mostraTempo: false
 		};
 	} else {
 		return {
-			titulo1: "Já foi!",
-			titulo2: "Obrigada a todos que participaram!",
+			subtitulo: "Já foi!",
+			mensagem: "Obrigada a todos que participaram!",
 			mostraTempo: false
 		};
 	}
@@ -39,8 +39,8 @@ function escreveTempo() {
 	const tempo = calculaTempo();
 	const textos = determinaTextos(tempo);
 
-	document.querySelector(".cronometro__subtitulo").textContent = textos.titulo1;
-	document.querySelector(".cronometro__medida").textContent = textos.titulo2;
+	document.querySelector(".cronometro__subtitulo").textContent = textos.subtitulo;
+	document.querySelector(".cronometro__medida").textContent = textos.mensagem;
 
 	const cronometro = document.querySelector(".cronometro__tempo");
 	if (textos.mostraTempo) {

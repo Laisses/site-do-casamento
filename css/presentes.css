@@ -69,12 +69,12 @@
 	border: 1px solid transparent;
 	border-radius: 8px;
 	background-color: var(--azul);
+	color: var(--branco);
 	width: 200px;
 	height: 16px;
 	padding: 10px;
 	margin: 10px auto;
-	text-align: center;
-	color: var(--branco);
+	text-align: center;	
 }
 
 .cards__template--botao:active {

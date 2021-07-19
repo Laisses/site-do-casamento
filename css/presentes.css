@@ -35,14 +35,13 @@
 	width: 250px;
 	display: grid;
 	grid-template-columns: 250px;
-	grid-template-rows: 250px 90px 60px 60px;
-	grid-template-areas: "imagem" "texto" "moeda" "botao";
+	grid-template-rows: 250px 90px 40px;
+	grid-template-areas: "imagem" "texto" "preco";
 	border: 2px solid #e8e8e8;
 	border-radius: 8px;
 	background: #fafafa;
-	cursor: pointer;
 	margin: 10px auto;
-
+	padding: 5px;
 }
 
 .cards__template--imagem {
@@ -50,10 +49,35 @@
 	max-width: 100%;
 }
 
-.cards__template--titulo {
-	grid-area: texto;
-	text-align: center;
-	font-size: 1.2rem;
+.cards__template--titulo, .cards__template--preco {
 	font-family: var(--fonte-presentes);
+	text-align: center;
+}
+
+.cards__template--titulo {
+	grid-area: texto;	
+	font-size: 1.2rem;
+}
+
+.cards__template--preco {
+	grid-area: preco;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.cards__template--botao {
+	border: 1px solid transparent;
+	border-radius: 8px;
+	background-color: #0c1c29;
+	width: 200px;
+	height: 16px;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	color: var(--branco);
+}
+
+.cards__template--botao:active {
+	transform: scale(.96);
 }
 

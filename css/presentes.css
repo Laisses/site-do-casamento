@@ -68,7 +68,7 @@
 .cards__template--botao {
 	border: 1px solid transparent;
 	border-radius: 8px;
-	background-color: #0c1c29;
+	background-color: var(--azul);
 	width: 200px;
 	height: 16px;
 	padding: 10px;

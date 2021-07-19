@@ -33,8 +33,6 @@
 }
 
 .noivos__data, .noivos__texto {
-	font-family: var(--fonte-data);
-
 	text-align: center;
 	text-transform: uppercase;
 

@@ -6,9 +6,9 @@
 	--texto-hamburguer: #FCF3F8;
 
 	--fonte-nome: "Alice", serif;
-	--fonte-data: "Open Sans", sans-serif;
-	--fonte-nav: "Open Sans", sans-serif;
 	--fonte-base: "Open Sans", sans-serif;
+	--fonte-titulo: "Roboto", sans-serif;
+	--fonte-presentes: "Cinzel", serif;
 
 	--preto: #1a1a1a;
 	--branco: #f0f0f0;
@@ -22,6 +22,11 @@
 }
 
 @font-face {
+	font-family: "Roboto";
+	src: url("../assets/fontes/Roboto-Light.ttf");
+}
+
+@font-face {
 	font-family: "Alice";
 	src:	url("../assets/fontes/Alice-Regular.ttf");
 }
@@ -31,14 +36,16 @@
 	src:	url("../assets/fontes/Cinzel-VariableFont_wght.ttf");
 }
 
-body {
+.body__index, .body__presentes {
 	font-family: var(--fonte-base);
+} 
+
+.body__index {
 	background-color: var(--azul);
 }
 
 a:link, a:visited, a:active {
 	text-decoration: none;
-	color: white;
 }
 
 .esconder {

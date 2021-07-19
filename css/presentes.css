@@ -1,0 +1,59 @@
+.body__presentes {
+	background: #f1f1f1;
+}
+
+#cabecalho {
+	position: static;
+	margin-top: 12px;
+}
+
+#cabecalho__menu--hamburguer {
+	background: #8c8c8c;
+}
+
+#cabecalho__home {
+	color:  var(--preto);
+}
+
+.presentes__titulo {
+	font-size: 1.8rem;
+	color: var(--preto);
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: var(--fonte-titulo);
+}
+
+.presentes__cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards__template {
+	width: 250px;
+	display: grid;
+	grid-template-columns: 250px;
+	grid-template-rows: 250px 90px 60px 60px;
+	grid-template-areas: "imagem" "texto" "moeda" "botao";
+	border: 2px solid #e8e8e8;
+	border-radius: 8px;
+	background: #fafafa;
+	cursor: pointer;
+	margin: 10px auto;
+
+}
+
+.cards__template--imagem {
+	grid-area: imagem;
+	max-width: 100%;
+}
+
+.cards__template--titulo {
+	grid-area: texto;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: var(--fonte-presentes);
+}
+

@@ -17,6 +17,10 @@
 	margin-left: 0.5rem;
 }
 
+.cabecalho__home:link, .cabecalho__home:visited, .cabecalho__home:active {
+	color: var(--branco);
+}
+
 .cabecalho__navegacao {
 	display: flex;
 	flex-wrap: wrap;
@@ -44,8 +48,6 @@
 	right: 15px;
 	left: 15px;
 	z-index: 10;
-
-	font-family: var(--fonte-nav);
 	font-size: 1.4rem;
 
 	text-align: center;
@@ -91,7 +93,6 @@
 	}
 
 	.menu__item--desktop {
-		font-family: var(--fonte-nav);
 		font-size: 1rem;
 
 		text-transform: uppercase;

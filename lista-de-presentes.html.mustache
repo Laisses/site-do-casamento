@@ -45,18 +45,14 @@
 				Lista de Presentes
 			</h1>
 			<section class="presentes__cards">
+				{{# presentes }}
 					<div class="cards__template">
-						<img src="assets/img/presentes/porta-talheres.jpg" alt="Porta talheres em bambu" class="cards__template--imagem" />
-						<h2 class="cards__template--titulo">Porta Talheres Extensível em Bambu</h2>
-						<span class="cards__template--preco">R$ 199,00</span>
-						<a class="cards__template--botao" href="https://example.com/2">Comprar</a>
+						<img src="{{{ imagem }}}" alt="{{ alt }}" class="cards__template--imagem" />
+						<h2 class="cards__template--titulo">{{ nome }}</h2>
+						<span class="cards__template--preco">R$ {{ preco }}</span>
+						<a class="cards__template--botao" href="{{{ link_de_pagamento }}}">Comprar</a>
 					</div>
-					<div class="cards__template">
-						<img src="assets/img/presentes/utensilios-bambu.jpg" alt="Conjunto de colheres de bambu em um suporte de bambu" class="cards__template--imagem" />
-						<h2 class="cards__template--titulo">Conjunto de Utensílios em Bambu com Suporte</h2>
-						<span class="cards__template--preco">R$ 199,00</span>
-						<a class="cards__template--botao" href="https://example.com/2">Comprar</a>
-					</div>
+				{{/ presentes }}
 			</section>
 		</main>
 	</body>

@@ -1,0 +1,18 @@
+{
+	"presentes": [
+		{
+			"nome": "Porta Talheres Extensível em Bambu",
+			"preco": "199,00",
+			"imagem": "assets/img/presentes/porta-talheres.jpg",
+			"alt": "Porta talheres em bambu",
+			"link_de_pagamento": "https://example.com/2"
+		},
+		{
+			"nome": "Conjunto de Utensílios em Bambu com Suporte",
+			"preco": "199,00",
+			"imagem": "assets/img/presentes/utensilios-bambu.jpg",
+			"alt": "Conjunto de colheres de bambu em um suporte de bambu",
+			"link_de_pagamento": "https://example.com/2"
+		}
+	]
+}
